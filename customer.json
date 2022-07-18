@@ -1,0 +1,25 @@
+{
+  "address": {
+    "city": "Hanoi",
+    "street": "Hai Ba Trung",
+    "state": "HBT"
+  },
+  "projects": [
+    {
+      "title": "Java with Json application",
+      "budget": 5000
+    },
+    {
+      "title": "Java with XML",
+      "budget": 3000
+    }
+  ],
+  "name": "Khoi",
+  "paymentMethod": [
+    "Momo",
+    "Visa"
+  ],
+  "id": 1,
+  "email": "khoi@gmail.com",
+  "age": 23
+}

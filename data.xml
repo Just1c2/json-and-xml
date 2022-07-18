@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<user id = "1">
+    <name>Thanh</name>
+    <email>thanh@gmail.com</email>
+    <roles>
+        <role>Student</role>
+        <role>Employee</role>
+        <role>Leader</role>
+    </roles>
+    <phone>0903532643</phone>
+</user>
