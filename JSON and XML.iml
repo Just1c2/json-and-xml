@@ -12,5 +12,6 @@
     <orderEntry type="library" name="jackson-core-2.10.0" level="project" />
     <orderEntry type="library" name="gson-2.9.0" level="project" />
     <orderEntry type="library" name="jaxb-api-2.1" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.29" level="project" />
   </component>
 </module>

@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38eea161-498d-4a58-a12f-86d55bf0ac32" name="Changes" comment="1st push">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_databind_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jaxb_api_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testjson/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testjson/entity/JsonApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testjson/entity/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testjson/entity/RootClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testxml/XmlApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testxml/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testxml/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testxml/NewApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSON and XML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JSON and XML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JsonApp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +48,39 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hirut/OneDrive/Máy tính/jar/jaxb-api-2.1.jar",
+    "last_opened_file_path": "C:/Users/hirut/OneDrive/Máy tính/jar/mysql-connector-java-8.0.29.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.XmlApp">
+  <component name="RunManager" selected="Application.NewApp">
+    <configuration name="Connection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testxml.Connection" />
+      <module name="JSON and XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testxml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testxml.NewApp" />
+      <module name="JSON and XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testxml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XmlApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testxml.XmlApp" />
       <module name="JSON and XML" />
@@ -91,6 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewApp" />
+        <item itemvalue="Application.Connection" />
         <item itemvalue="Application.XmlApp" />
         <item itemvalue="Application.testjson.entity.JsonApp" />
       </list>
@@ -106,7 +120,9 @@
       <updated>1657686951376</updated>
       <workItem from="1657686952953" duration="1563000" />
       <workItem from="1657848455631" duration="8704000" />
-      <workItem from="1658108692731" duration="8379000" />
+      <workItem from="1658108692731" duration="9016000" />
+      <workItem from="1658234808925" duration="57000" />
+      <workItem from="1658234889695" duration="2654000" />
     </task>
     <task id="LOCAL-00001" summary="1st push">
       <created>1657848761271</created>
@@ -122,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657850126449</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1st push">
+      <created>1658119117424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658119117424</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
