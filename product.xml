@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <user>
+        <name>Huy</name>
+        <email>huy@gmail.com</email>
+        <phone>0905323125</phone>
+    </user>
+    <user>
+        <name>Hoang</name>
+        <email>hoang@gmail.com</email>
+        <phone>0905323125</phone>
+    </user>
+    <user>
+        <name>Quan</name>
+        <email>quan@gmail.com</email>
+        <phone>0905323125</phone>
+    </user>
+</list>

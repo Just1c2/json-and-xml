@@ -60,7 +60,7 @@ public class NewApp {
 
         Transformer transformer = TransformerFactory.newInstance().newTransformer();
         transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-        transformer.transform(new DOMSource(dom), new StreamResult((new File("student1.xml"))));
+        transformer.transform(new DOMSource(dom), new StreamResult((new File("student3.xml"))));
     }
     public static void main(String[] args) throws SQLException, ParserConfigurationException, TransformerException {
         readFromDb();
