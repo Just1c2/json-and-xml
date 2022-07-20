@@ -1,5 +1,6 @@
 package training;
 
+import org.xml.sax.SAXException;
 import training.model.ProductList;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -19,7 +20,7 @@ public class Application {
         System.out.println("5. Exit");
     }
 
-    public static void main(String[] args) throws SQLException, IOException, ParserConfigurationException, TransformerException {
+    public static void main(String[] args) throws SQLException, IOException, ParserConfigurationException, TransformerException, SAXException {
         ProductList productList = new ProductList();
         menu();
         while (true) {

@@ -2,9 +2,11 @@ package training.model;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.xml.sax.SAXException;
 import training.entity.Product;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -78,7 +80,9 @@ public class ProductList {
             transformer.transform(new DOMSource(dom), new StreamResult((new File("product.xml"))));
         }
     }
-    public void findByName() {
+    public void findByName() throws IOException, ParserConfigurationException, SAXException {
+        readFromJson();
+        //readFromXml();
         System.out.println("Enter name: ");
         String name = sc.next();
         for (Product s : products ) {
@@ -86,5 +90,18 @@ public class ProductList {
                 System.out.println(s);
             }
         }
+    }
+    public void readFromJson() throws IOException {
+        Gson gson = new Gson();
+        FileReader reader = new FileReader("product.json");
+        products = gson.fromJson(reader, new TypeToken<List<Product>>(){}.getType());
+
+        reader.close();
+    }
+    public void readFromXml() throws IOException, SAXException, ParserConfigurationException {
+        DocumentBuilder builder = DocumentBuilderFactory.newDefaultInstance().newDocumentBuilder();
+        Document dom = builder.parse(new File("product.xml"));
+        dom.normalizeDocument();
+        Element root = dom.getDocumentElement();
     }
 }
