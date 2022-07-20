@@ -81,7 +81,7 @@ public class ProductList {
         }
     }
     public void findByName() throws IOException, ParserConfigurationException, SAXException {
-        readFromJson();
+        //readFromJson();
         //readFromXml();
         System.out.println("Enter name: ");
         String name = sc.next();
